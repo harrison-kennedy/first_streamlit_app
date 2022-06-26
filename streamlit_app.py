@@ -3,12 +3,7 @@ import streamlit
 
 # set header and initial menu items
 
-streamlit.title('My Parents New Healthy Diner xzy')
-
-
-
-
-
+streamlit.title('My Parents New Healthy Diner')
 
 streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
