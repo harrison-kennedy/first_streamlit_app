@@ -33,7 +33,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 #New Section to display fruityvice
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon" + fruit_choice)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit" + fruit_choice)
 
 # Uses pandas to structure the json data
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
